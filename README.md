@@ -9,17 +9,17 @@
 - 设备过载？呼出 Alfred 敲 `bit logout` 回车一键注销所有设备
 
 # 安装方法
-- （假设已安装 Alfred Powerpack，）下载 `BIT-ALS.alfredworkflow`，双击它，即可导入 Alfred 工作流。
+- （假设已安装 Alfred Powerpack，）下载本项目下 [BIT-ALS.alfredworkflow](https://github.com/zphhhhh/BIT-Auto-Login-System/raw/master/BIT-ALS.alfredworkflow)，双击它，即可导入 Alfred 工作流。
 - 打开 Alfred - Preferences - Workflows ，进入工作流的 BIT-ALS 页面，点击第二步（即工作流图的中间一步），在弹出的页面中查看源代码，修改前两行，为自己的校园用户名和密码
-![配置校园网用户](./images/setup.png)
+![配置校园网用户](./images/setup.jpg)
 
 # 使用方法
 ```
 bit [option]
 
 option:
-    login: 默认, 登录校园网
-    logout: 注销校园网，因为一些原因，目前的注销是指注销该用户下所有设备
+    login   # 默认, 登录校园网
+    logout  # 注销校园网，因为一些原因，目前的注销是指注销该用户下所有设备
 ```
 例如：
 ```
