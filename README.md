@@ -31,6 +31,9 @@ bit logout  # 注销校园网，因为一些原因，目前的注销是指注销
 # 源代码
 进入工作流的 BIT-ALS 页面，点击第二步（即工作流图的中间一步），在弹出的页面中，查看脚本源代码，下滑再下滑～
 
+# 还要再快？？？
+可结合 [ControlPlane](https://www.controlplaneapp.com/) ，在 Mac 开机或唤醒或翻起盖子时执行自动登录脚本。
+
 # 关于
 Github: https://github.com/zphhhhh/BIT-Auto-Login-System  
 任何问题，请 @zphhhhh 在 Github，谢谢你！
